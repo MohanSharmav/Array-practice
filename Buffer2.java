@@ -1,0 +1,18 @@
+// class Buffer2
+// {
+//     public statci void main(String args[])
+//     {
+// //         import java.io.*;  
+// public class BufferedReaderExample {  
+//     public static void main(String args[])throws Exception{    
+    
+import java.io.*;  
+public class Buffer2{  
+public static void main(String args[])throws Exception{             
+    InputStreamReader r=new InputStreamReader(System.in);    
+    BufferedReader br=new BufferedReader(r);            
+    System.out.println("Enter your name");    
+    String name=br.readLine();    
+    System.out.println("Welcome "+name);    
+}    
+}      
